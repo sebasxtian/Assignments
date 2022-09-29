@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>     <!-- declares doctype-->
+<html>              <!--telling code that we are going to use HTML tags-->
+    <head>          <!-- anything in 'head' tags does not go onto page Except TITLE-->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> Lecture 1 </title>
+
+        <!-- TUTORIAL -->
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id="top">
+            <div id="top-left">
+                <h1> Welcome to week-1</h1>     <!-- There are 6 heading sizes (1-6) with 1 being biggest-->
+                <p> This is an intro to basic web design </p>
+            </div>
+
+            <div id="login">
+                <h6> </h6>
+                <form method="post">
+                    <label>Username:</label>
+                    <input type="email" placeholder="your name" name="email" /><br />
+                    <label>Password:</label>
+                    <input type="password" placeholder="enter password" name="pass" /><br />
+                </form>
+            </div>
+        </div>
+
+        <div id="wrapper">              <!-- id can only be used once-->
+
+            <div id="banner">
+                <h1> Welcome to the first web page of the year</h1>
+            </div>
+
+            <div id="left-column">
+                <h3>Links...</h3>
+
+                <ul>
+                    <li>
+                        <a href="http://www.w3schools.com/">Reference: w3Schools</a>    <!-- takes user to outside link-->
+                    </li>
+                    <li>
+                        <a href="feedback.html">Feedback Form</a>       <!-- takes user to another 'html' in same folder-->
+                    </li>
+                    <li>
+                        <a href="video.html">Video</a>
+                    </li>
+                    <li>
+                        <a href="form.html">Form</a>
+                    </li>
+                </ul>
+
+                <div id="ytvid">
+                    <iframe
+                        width="425"
+                        height="350"
+                        src="https://www.youtube.com/embed/j_fBqTSNPf0"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+
+                <div id="google-link">
+                    <!-- makes a link -->
+                    <a href="https://google.com">Google</a>
+                    <!-- makes link opens a new tab -->
+                    <a href="https://google.com" target="_blank"> Google</a>
+                </div>
+            </div>
+
+            <div id="right-column">
+                <h2>Creating boxes in the right column</h2>
+                <p>Right column content here</p>
+                <div class="box"><p>Box content</p></div>
+                <div class="box"><p>Box content</p></div>
+                <div class="box"><p>Box content</p></div>
+                <div class="box"><p>Box content</p></div>
+                <div class="box"><p>Box content</p></div>
+                <div class="box"><p>Box content</p></div>
+                <div class="box"><p>Box content</p></div>
+                <div class="box"><p>Box content</p></div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="bottom">
+            <!-- creates image-->
+            <div id="image">
+                <img src="SAO_background.jpg" alt="random picture" width="350" height="200"/>
+            </div>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>heading1</th>
+                    <th>heading 2</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>column 1</td>
+                    <td>column 2</td>
+                </tr>
+                <tr>
+                    <td>column 1</td>
+                    <td>column 2</td>
+                </tr>
+                </tbody>
+            </table>
+
+
+            <form method="post">
+                <select name="selctname">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                    <option>Option 4</option>
+                </select><br />
+                <input type="radio" name="gender" /> male<br />
+                <input type="radio" name="gender" /> female<br />
+                <input type="radio" name="gender" /> other<br />
+
+                <input type="submit" value="Submit" />
+            </form>
+
+
+        </div>
+        
+
+
+            <div id="footer">
+                <h5>Site by Sebasxtian</h5>
+            </div>
+        </div>
+        <script src="js/main.js" type="text/" 
+    </body>
+</html>
+

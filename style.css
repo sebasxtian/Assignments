@@ -1,0 +1,196 @@
+/*CSS3*/
+@charset "UTF-8";
+body
+{
+    color: white;
+    background-color:darkslateblue; 
+    font-family: Verdana, Geneva, Arial, sans-serif; 
+    padding:0px;
+    margin:0px;
+}
+
+#top
+{
+    width: auto;
+    height: 115px;
+    background: -moz-linear-gradient(90deg , gray 0%, white 100%);
+    background: -webkit-linear-gradient(90deg, gray 0%, white 100%);
+    background: -o-linear-gradient(90deg, gray 0%, white 100%);
+    background: linear-gradient(to left, gray 0%, white 100%);
+}
+
+#top-left
+{
+    font-family: 'Ms Madi', cursive;
+    float: left;
+    width:auto;
+    height: auto;
+    color: black;
+}
+
+#login
+{
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+#wrapper /* use # for id*/
+{
+    width: 1350px;
+    height: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:darkslateblue;
+}
+
+#left-column
+{
+    float: left;
+    width: 450px;background-color:turquoise;
+    opacity: 1;
+    height: 600px;
+}
+
+#ytvid
+{
+    margin: 12.5px;
+}
+
+#google-link
+{
+    margin: 12.5px;
+    word-spacing: 307.9px;
+}
+
+#right-column
+{
+    float: right;
+    width: 835px;
+    height: 600px;
+    background-color:mediumslateblue;
+}
+
+.box    /* use . for class*/
+{
+    height: 175px;
+    width: 175px;
+    float: left;
+    background-color: turquoise;
+    margin: 15px;
+    opacity: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p, li
+{
+    margin-left: 15px;
+}
+
+#bottom
+{
+    width: 1350px;
+    height: 350px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image
+{
+    float: right;
+}
+
+#footer
+{
+    height: 60px;
+    float:left;
+}
+
+#banner
+{
+    background-color: turquoise;
+}
+
+#banner h1
+{
+    color:white;
+}
+
+.box:hover
+{
+    background-color: turquoise;
+    background: -moz-linear-gradient(45deg, mediumslateblue 0%, turquoise 100%);
+    background: -webkit-linear-gradient(45deg, mediumslateblue 0%, turquoise 100%);
+    background: -o-linear-gradient(45deg, mediumslateblue 0%, turquoise 100%);
+    background: linear-gradient(to 45deg, mediumslateblue 0%, turquoise 100%);
+    opacity: 1;
+}
+
+video
+{
+    width: 400px;
+    padding: 15px;
+    margin: 15px;
+    background-color: black;
+    border: white solid;
+    box-shadow: 10px 10px 5px black;
+}
+
+button:hover
+{
+    background-color: black;
+    color: white;
+    height: 40ox;
+    border: white solid;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 5px;
+}
+
+
+form
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, footer
+{
+    background-color: white;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+aside
+{
+    background-color: wheat;
+    float: right;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+
+figure
+{
+    position: relative;
+    width: 220px;
+    height: 200px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+figcaption
+{
+    position: bottom;
+    background-color: black;
+    color: white;
+}
+.clear
+{
+    clear: both;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>video template</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <h1>Watch our video!</h1>
+
+            <video controls poster="Week2-on_record.png" autoplay muted preload="auto" id="video">
+                <source src="on_record.ogv" type="video/ogg">
+                <source src="on_record.mp4" type="video/mp4>">
+                <p>video is not supported. you can download a html supported browser</p>
+            </video>
+        </div>
+    </body>
+</html>
+
+<br>
+<button onclick="playPause()">Play or Pause the video</button>
+<script>
+    var myVideo=document.getElementById("video");
+    function playPause()
+    {
+        if (myVideo.paused)
+        myVideo.play();
+        else myVideo.pause()
+    }
+</script>
