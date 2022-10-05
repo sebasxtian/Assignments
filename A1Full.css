@@ -138,6 +138,26 @@ figcaption{
     height: 800px;
     width: 100%;
 }
+#PArticle{
+    color: white;
+    text-align: center;
+}
+#SModel{
+    width: 30%;
+    height: auto;
+    float: left;
+    color: white;
+    margin: 1%;
+    overflow:auto;
+}
+#Ocean{
+    width: 30%;
+    height: auto;
+    float: left;
+    color: white;
+    margin: 1%;
+    overflow:auto;
+}
 
 
 
