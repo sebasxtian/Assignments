@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Assignment1.css">
+        <title>About Me</title>
+
+        <meta name="viewport" content="width=device-width">
+
+        <link href="A1Full.css" rel="stylesheet" type="text/css"> 
+        <!-- full-size monitor style sheet--> 
+        <link href="A1Full.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)"> 
+        <!-- tablet style sheet--> 
+        <link href="A1Tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)"> 
+        <!-- phone style sheet--> 
+        <link href="A1Phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div id="AWrapper">
+
+            <header>
+                <h2>A Little Bit About Me</H2>
+                
+                <nav>
+                    <h3>
+                        <a href="A1.html">Home</a> |
+                        <a href="Projects.html">Projects</a> |
+                        <a href="Contact.html">Contact Information</a>
+                    </h3>
+                </nav>
+            </header>
+
+            <main id="AMain">
+                <div class="box"><h3>Me</h3>
+                    <p class="AText">Name: Sebastian Carneiro<br>Age: 19<br>DOB: 01/01/2003 </p>
+                </div>
+                <div class="box"><h3>Hobbies</h3>
+                    <p class="AText">There are a lot of things I am interested in and many hobbies I would like to one day be able to have, but as of right now my hobbies are pretty simple.<br>
+                        My hobbies include playing sports, playing board games, and (especially in the winter) videogames. Other than this you could say watching tv/anime is anohter along with listening to music.
+
+                    </p>
+                </div>
+                <div class="box"><h3>Sports</h3>
+                    <p class="AText">As a kid and to theis day I have always quite enjoyed playing sports. From probably as soon as you could i was playing soccer.
+                        I continued to play soccer and when i was old enough started playing rep (I was 7). I played rep every year until grade 10 when I stoped playing.
+                        The reason I stoped was because within the last four years i had one team fold, and the other was constantly having players leave after the season.
+                        This meant that my team was always 'new' and had no chemistry. I still enjoy to play soccer and am considering joining either intrmurals or a mens league soon.
+                    </p>
+                </div>
+                <div class="box">
+                    <video controls poster="LOLpic.jpg" muted preload="auto" id="video">
+                        <source src="Assignment1.mp4" type="video/mp4">
+                        <p>video is not supported. you can download a html supported browser</p>     
+                    </video> 
+                </div>
+                    <button onclick="playPause()">Play/Pause</button>
+                    <aside id="vidNoise">
+                        <p>Please note this video has no sound.</p>
+                    </aside>
+            </main>
+            
+            <figure>
+                    <img src="mePhoto.jpg" alt="self portrait" width="100%" height="100%">
+                    <figcaption>
+                        <h5>Summer 2022</h5>
+                    </figcaption>
+            </figure>
+
+            <aside id="AAside">
+                <p>About the photo</p>
+                <p>The photo above was funnily enough taken as a dare while at my summer job. I won't tell you what the photo was for but will leave it up to your interpritation.</p>
+            </aside>
+
+
+            <div class="clear"></div>
+
+            <footer>
+                <address>
+                    <p>Contact me at: <a href="mailto:sebastian.carneiro@ontariotechu.net">sebastian.carneiro@ontariotechu.net</a></p>
+                </address>
+                <p id="copyright">© by Sebastian Carneiro</p>
+            </footer>
+
+        </div>
+    </body>
+</html>
+
+<script>
+    var myVideo=document.getElementById("video");
+    function playPause()
+    {
+        if (myVideo.paused)
+        myVideo.play();
+        else myVideo.pause()
+    }
+</script> 

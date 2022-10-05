@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+
+header{
+    font-family: 'Ms Madi', cursive;
+    font-size: x-large;
+    width: auto;
+    height: 115px;
+    background: -moz-linear-gradient(90deg , gray 0%, white 100%);
+    background: -webkit-linear-gradient(90deg, gray 0%, white 100%);
+    background: -o-linear-gradient(90deg, gray 0%, white 100%);
+    background: linear-gradient(to left, gray 0%, white 100%);
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+nav{
+    font-family: 'Ms Madi', cursive;
+    font-size: x-large;
+    text-align: center;
+}
+body
+{
+    height: auto;
+    background: -moz-linear-gradient(90deg , gray 0%, white 100%);
+    background: -webkit-linear-gradient(90deg, gray 0%, white 100%);
+    background: -o-linear-gradient(90deg, gray 0%, white 100%);
+    background: linear-gradient(to left, gray 0%, white 100%);
+}
+
+
+
+
+
+#WWrapper{
+    color: black;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+.homePage{
+    margin: 5%;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+#AWrapper{
+    background-color: darkslateblue;
+    height: auto;
+    width: 100%;
+}
+#AMain{
+    float: left;
+    background: -webkit-linear-gradient(180deg, white 0%, gray 100%);
+    color: white;
+    height: auto;
+    width: 70%;
+    margin: 1%;
+}
+.AText{
+    margin: 5%;
+    color: white;
+}
+.box{
+    float: left;
+    background-color: darkslateblue;
+    height: 275px;
+    width: 45%;
+    margin: 2%;
+    text-align: center;
+    overflow-y: auto;
+}
+video{
+    width: 65%;
+    height: fit-content;
+    padding: 15px;
+    margin: 15px;
+    background: -webkit-linear-gradient(180deg, gray 0%, white 100%);
+    opacity: 0.9;
+    border: black;
+    box-shadow: 10px 10px 5px mediumslateblue;
+}
+button{
+    float: right;
+    margin-right: 23%;
+}
+button:hover
+{
+    background-color: mediumslateblue;
+    opacity: 0.75;
+    color: white;
+    height: 40px;
+    border: 5px solid darkslateblue;
+}
+#vidNoise{
+    float: left;margin-left: 52%;
+    color: black;
+}
+figure{
+    float: right;
+    padding: 2%;
+    padding-bottom: 0%;
+    margin: 1%;
+    width: 20%;
+    height: auto;
+    background: -moz-linear-gradient(180deg , gray 0%, white 100%);
+    background: -webkit-linear-gradient(180deg, gray 0%, white 100%);
+    background: -o-linear-gradient(180deg, gray 0%, white 100%);
+    background: linear-gradient(to left, gray 0%, white 100%);
+    border: 2px solid black;
+    text-align: center;
+}
+figcaption{
+    position:relative;
+}
+
+#AAside{
+    float: right;
+    background-color: rgb(60, 49, 121);
+    border: 2px solid black;
+    color: white;
+    margin-right: 5%;
+    width: 15%;
+    height: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+
+
+
+
+#PWrapper{
+    background-color: darkslateblue;
+    height: 800px;
+    width: 100%;
+}
+
+
+
+
+
+#CWrapper{
+    background-color: darkslateblue;
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+#CMain{
+    width: 100%;
+}
+form{
+    background-color: mediumslateblue;
+    color: white;
+    height: 475px;
+    width: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    text-align: center;
+}
+.inputC{
+    background: -moz-linear-gradient(90deg , gainsboro 0%, white 100%);
+    background: -webkit-linear-gradient(90deg, gainsboro 0%, white 100%);
+    background: -o-linear-gradient(90deg, gainsboro 0%, white 100%);
+    background: linear-gradient(to left, gainsboro 0%, white 100%);
+    width: 70%;
+}
+.inputC:hover{
+    border: 2px solid black;
+}
+textarea{
+    background: -moz-linear-gradient(90deg , gainsboro 0%, white 100%);
+    background: -webkit-linear-gradient(90deg, gainsboro 0%, white 100%);
+    background: -o-linear-gradient(90deg, gainsboro 0%, white 100%);
+    background: linear-gradient(to left, gainsboro 0%, white 100%);
+    width: 80%;
+}
+textarea:hover{
+    border: 2px solid black;
+}
+
+
+
+
+
+.clear
+{
+    clear: both;
+}
+footer{
+    width: auto;
+    height: auto;
+    background: -moz-linear-gradient(90deg , gray 0%, white 100%);
+    background: -webkit-linear-gradient(90deg, gray 0%, white 100%);
+    background: -o-linear-gradient(90deg, gray 0%, white 100%);
+    background: linear-gradient(to left, gray 0%, white 100%);
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+

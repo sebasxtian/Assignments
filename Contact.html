@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Assignment1.css">
+        <title>Contact Information</title>
+
+        <meta name="viewport" content="width=device-width">
+
+        <link href="A1Full.css" rel="stylesheet" type="text/css"> 
+        <!-- full-size monitor style sheet--> 
+        <link href="A1Full.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)"> 
+        <!-- tablet style sheet--> 
+        <link href="A1Tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)"> 
+        <!-- phone style sheet--> 
+        <link href="A1Phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div id="CWrapper">
+            <header>
+                <h2>Contact Information</H2>
+                
+                <nav>
+                    <h3>
+                        <a href="A1.html">Home</a> |
+                        <a href="AboutMe.html">About Me</a> |
+                        <a href="Projects.html">Projects</a>
+                    </h3>
+                </nav>
+            </header>
+
+            <main id="CMain">
+                <form action="mailto:sebastian.carneiro@ontariotechu.net" method="post" enctype="text/plain" name="form">
+                    <p>
+                        <input class="inputC" type="text" name="name" size="32" placeholder="Name" required>
+                    </p>
+                    <p>
+                        <input class="inputC" type="email" name="email" size="32" placeholder="Email" required>
+                    </p>
+                    <p>
+                        <input class="inputC" type="tel" name="telNum" size="32" placeholder="Phone Number" required>
+                    </p>
+                    <p>
+                        <label for="questions">Questions</label><br>
+                        <textarea name="questions" cols="35" rows="3"></textarea>
+                    </p>
+                    <p>
+                        <label for="comments">Comments / Suggestions</label><br>
+                        <textarea name="comments" cols="35" rows="4"></textarea>
+                    </p>
+                    <p><input class="inputC" type="submit" value="Submit Form"/></p>
+                    <p><input class="inputC" type="reset" value="Reset Form"></p>
+                </form>
+            </main>
+
+            <div class="clear"></div>
+            
+            <footer>
+                <address>
+                    <p>Contact me at: <a href="mailto:sebastian.carneiro@ontariotechu.net">sebastian.carneiro@ontariotechu.net</a></p>
+                </address>
+                <p id="copyright">© by Sebastian Carneiro</p>
+            </footer>
+            
+        </div>
+
+
+
+
+    </body>
+
+</html>
